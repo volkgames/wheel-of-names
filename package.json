@@ -1,0 +1,58 @@
+{
+  "name": "wheel-of-names",
+  "version": "1.0.0",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/types.d.ts",
+  "scripts": {
+    "rollup": "rollup -c --bundleConfigAsCjs",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "keywords": [
+    "wheel",
+    "wheel of names",
+    "random",
+    "spinner",
+    "spin",
+    "react",
+    "roulette"
+  ],
+  "author": "VolkGames",
+  "license": "MIT",
+  "description": "A simple component for randomising names",
+  "homepage": "https://github.com/volkgames/wheel-of-names#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/volkgames/wheel-of-names"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^1.5.0",
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@storybook/addon-essentials": "^8.1.10",
+    "@storybook/addon-interactions": "^8.1.10",
+    "@storybook/addon-links": "^8.1.10",
+    "@storybook/addon-onboarding": "^8.1.10",
+    "@storybook/blocks": "^8.1.10",
+    "@storybook/react": "^8.1.10",
+    "@storybook/react-vite": "^8.1.10",
+    "@storybook/test": "^8.1.10",
+    "@types/node": "^20.14.8",
+    "@types/react": "^18.3.3",
+    "react": "^18.3.1",
+    "rollup": "^4.18.0",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "storybook": "^8.1.10",
+    "tslib": "^2.6.3",
+    "typescript": "^5.5.2"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "@types/node": "^20.14.8"
+  }
+}
