@@ -12,7 +12,7 @@ In the same directory as your package.json file, create or edit an `.npmrc` file
 
 
 ```bash
-npm i @volkgames/wheel-of-names@1.0.0
+npm i @volkgames/wheel-of-names@latest
 ```
 
 ## Usage
