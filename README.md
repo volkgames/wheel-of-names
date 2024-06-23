@@ -97,4 +97,4 @@ const Wheel = () => {
 
 # Acknowledgements
 
-Inspired by [Wheel of Destiny]("https://github.com/robgithub/wheelofdestiny")
+Inspired by [Wheel of Destiny](https://github.com/robgithub/wheelofdestiny)
