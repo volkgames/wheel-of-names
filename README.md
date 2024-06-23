@@ -5,13 +5,7 @@
 Install via NPM:
 
 ```bash
-npm i wheel-of-names
-```
-
-Install via YARN:
-
-```bash
-yarn add wheel-of-names
+npm i @volkgames/wheel-of-names@1.0.0
 ```
 
 ## Usage
