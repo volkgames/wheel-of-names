@@ -4,6 +4,13 @@
 
 Install via NPM:
 
+In the same directory as your package.json file, create or edit an `.npmrc` file to include a line specifying GitHub Packages URL and the namespace where the package is hosted
+
+```
+@volkgames:registry=https://npm.pkg.github.com
+```
+
+
 ```bash
 npm i @volkgames/wheel-of-names@1.0.0
 ```
@@ -11,7 +18,7 @@ npm i @volkgames/wheel-of-names@1.0.0
 ## Usage
 
 ```typescript
-import WheelOfNames from "wheel-of-names";
+import WheelOfNames from "@volkgames/wheel-of-names";
 
 const Wheel = () => {
   return (
@@ -57,7 +64,7 @@ If you are using Next.js, make sure your component is a client component by addi
 Here is a more comprehensive example of how to use the `WheelOfNames` component with additional props:
 
 ```typescript
-import WheelOfNames from "wheel-of-names";
+import WheelOfNames from "@volkgames/wheel-of-names";
 
 const Wheel = () => {
   const handleComplete = (winner: string) => {
