@@ -1,5 +1,5 @@
 {
-  "name": "wheel-of-names",
+  "name": "@volkgames/wheel-of-names",
   "version": "1.0.0",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
